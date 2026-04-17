@@ -1,3 +1,7 @@
 /magic
 /magic-notes.md
 .vscode
+node_modules/
+dist/
+*.tsbuildinfo
+.DS_Store

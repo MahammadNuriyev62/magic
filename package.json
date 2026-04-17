@@ -1,0 +1,41 @@
+{
+  "name": "magic-ssh",
+  "version": "0.1.0",
+  "description": "Persistent SSH sessions as MCP tools for Claude Code and GitHub Copilot CLI.",
+  "type": "module",
+  "bin": {
+    "magic-ssh-mcp": "dist/server.js"
+  },
+  "main": "dist/server.js",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "dev": "tsc --watch",
+    "prepublishOnly": "npm run build"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "mcp",
+    "ssh",
+    "claude-code",
+    "copilot-cli",
+    "remote",
+    "agent"
+  ],
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.4",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "typescript": "^5.5.0"
+  },
+  "license": "MIT"
+}

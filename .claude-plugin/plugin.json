@@ -1,0 +1,19 @@
+{
+  "name": "magic-ssh",
+  "version": "0.1.0",
+  "description": "Persistent SSH sessions as tools. Keeps local (research) and remote (experiments) side by side in a single Claude Code session.",
+  "author": {
+    "name": "magic-ssh contributors",
+    "url": "https://github.com/MahammadNuriyev62/magic"
+  },
+  "homepage": "https://github.com/MahammadNuriyev62/magic",
+  "repository": "https://github.com/MahammadNuriyev62/magic",
+  "license": "MIT",
+  "keywords": ["ssh", "remote", "mcp", "sessions"],
+  "mcpServers": {
+    "magic-ssh": {
+      "command": "npx",
+      "args": ["-y", "magic-ssh@latest"]
+    }
+  }
+}

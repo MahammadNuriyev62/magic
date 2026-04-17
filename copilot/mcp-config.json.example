@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "magic-ssh": {
+      "type": "local",
+      "command": "npx",
+      "args": ["-y", "magic-ssh@latest"],
+      "tools": ["*"]
+    }
+  }
+}
